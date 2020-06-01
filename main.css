@@ -1,0 +1,30 @@
+body {
+  color: #3b4043;
+  background-color: #f8f8f8;
+  font-family: Verdana, Arial, sans-serif;
+}
+p {
+  font-size: 12pt;
+}
+h1, h2, h6 {
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1mm;
+  text-shadow: #cdd9db 1px 1px;
+}
+h1 {
+  font-size: 20pt;
+}
+h2 {
+  font-size: 18pt;
+}
+h6 {
+  font-size: 12pt;
+}
+table {
+  font-size: 10pt;
+}
+blockquote p, address {
+  font-size: 10pt;
+  font-style: italic;
+}
