@@ -5,6 +5,7 @@ body {
 }
 p {
   font-size: 12pt;
+  text-align: justify;
 }
 h1, h2, h6 {
   font-weight: normal;
@@ -28,3 +29,16 @@ blockquote p, address {
   font-size: 10pt;
   font-style: italic;
 }
+address {
+  text-align: right;
+}
+ul {
+  list-style-type: circle;
+}
+#navbar {
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+#navbar li { cursor: pointer; }
