@@ -41,4 +41,29 @@ ul {
   text-transform: uppercase;
   list-style-type: none;
 }
-#navbar li { cursor: pointer; }
+#navbar li {
+  cursor: pointer;
+}
+#cheader {
+  width: 100%;
+}
+#cnavbar {
+  /* width: 240px;
+  height: 620px;
+  float: left; */
+  width: 30%;
+  min-width: 240px;
+  float: left;
+}
+#cmain {
+  /* width: 780px;
+  height: 620px;
+  float: left;
+  overflow: auto; */
+  width: 70%;
+  float: left;
+}
+#ccopyright {
+  width: 100%;
+  clear: both;
+}
