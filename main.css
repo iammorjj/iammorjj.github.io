@@ -2,6 +2,7 @@ body {
   color: #3b4043;
   background-color: #f8f8f8;
   font-family: Verdana, Arial, sans-serif;
+  margin: 0px;
 }
 p {
   font-size: 12pt;
@@ -40,30 +41,42 @@ ul {
   font-size: 14pt;
   text-transform: uppercase;
   list-style-type: none;
+  margin-left: -30px;
 }
 #navbar li {
-  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border: thin solid #b1bec6;
 }
 #cheader {
-  width: 100%;
+  width: 1010px;
+  padding: 0 20px;
+  border-bottom: thin dotted #b1bec6;
 }
 #cnavbar {
-  /* width: 240px;
-  height: 620px;
-  float: left; */
-  width: 30%;
-  min-width: 240px;
+  width: 250px;
+  height: 570px;
   float: left;
+  margin-right: 10px;
+  /* width: 30%;
+  min-width: 240px;
+  float: left; */
 }
 #cmain {
-  /* width: 780px;
-  height: 620px;
+  width: 760px;
+  height: 570px;
   float: left;
-  overflow: auto; */
-  width: 70%;
-  float: left;
+  overflow: auto;
+  padding: 5px;
+  border-left: thin dotted #b1bec6;
+  /* width: 70%;
+  float: left; */
 }
 #ccopyright {
-  width: 100%;
+  width: 1010px;
   clear: both;
+  padding: 10px 20px 0px 20px;
+  border-top: thin dotted #b1bec6;
+  /* width: 100%;
+  clear: both; */
 }
