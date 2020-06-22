@@ -25,6 +25,16 @@ h6 {
 }
 table {
   font-size: 10pt;
+  margin: 10px 0px;
+  border: thin solid black;
+  border-collapse: collapse;
+}
+td, th {
+  border: thin dotted black;
+  padding: 2px;
+}
+caption {
+  text-align: left;
 }
 blockquote p, address {
   font-size: 10pt;
@@ -35,6 +45,9 @@ address {
 }
 ul {
   list-style-type: circle;
+}
+pre {
+  outline: thin dotted #b1bec6;
 }
 #navbar {
   font-family: Arial, sans-serif;
